@@ -7,10 +7,11 @@
 //
 
 #include <stdio.h>
-#include "Stack.h"
-#include "Queue.h"
-#include "SinglyLinkedList.h"
-#include "DoublyLinkedList.h"
+//#include "Stack.h"
+//#include "Queue.h"
+//#include "SinglyLinkedList.h"
+//#include "DoublyLinkedList.h"
+#include "StackUsingLL.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -66,6 +67,16 @@ int main(int argc, const char * argv[]) {
 //    insertNodeAtBeg(9);
 //    displayAllNodes();
 //    reverseAllNodes();
+  
+  
+  //Stack Using Linked List
+  pushElementAtBeginning(10);
+  pushElementAtBeginning(9);
+  pushElementAtBeginning(8);
+//  pushElementAtBeginning(7);
+  deleteElementAtEnd();
+  displayAll();
+  
     
     
     return 0;
