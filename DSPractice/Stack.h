@@ -10,9 +10,9 @@
 #define Stack_h
 
 #include <stdio.h>
-
-void push(int element);
-void pop(void);
-void isEmpty(void);
+//
+//void push(int element);
+//void pop(void);
+//void isEmpty(void);
 
 #endif /* Stack_h */

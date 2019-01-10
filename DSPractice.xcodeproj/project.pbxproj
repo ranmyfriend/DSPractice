@@ -12,6 +12,8 @@
 		C67B4ACA21C768AA008E0982 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C67B4AC921C768AA008E0982 /* main.c */; };
 		C67B4AD221C78EBB008E0982 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = C67B4AD021C78EBB008E0982 /* Stack.c */; };
 		C67B4AD521C78F38008E0982 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = C67B4AD321C78F38008E0982 /* Queue.c */; };
+		C6A04B5821E761E2007210D9 /* InfixToPostfixExpressionCheck.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A04B5721E761E2007210D9 /* InfixToPostfixExpressionCheck.c */; };
+		C6DC0B2121E345CE00E4A950 /* BalancedParanthesesUsingStack.c in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0B2021E345CE00E4A950 /* BalancedParanthesesUsingStack.c */; };
 		C6FF67FE21D3659900517D51 /* StackUsingLL.c in Sources */ = {isa = PBXBuildFile; fileRef = C6FF67FC21D3659900517D51 /* StackUsingLL.c */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,10 @@
 		C67B4AD121C78EBB008E0982 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		C67B4AD321C78F38008E0982 /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
 		C67B4AD421C78F38008E0982 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		C6A04B5621E761E2007210D9 /* InfixToPostfixExpressionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfixToPostfixExpressionCheck.h; sourceTree = "<group>"; };
+		C6A04B5721E761E2007210D9 /* InfixToPostfixExpressionCheck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InfixToPostfixExpressionCheck.c; sourceTree = "<group>"; };
+		C6DC0B1F21E345CE00E4A950 /* BalancedParanthesesUsingStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalancedParanthesesUsingStack.h; sourceTree = "<group>"; };
+		C6DC0B2021E345CE00E4A950 /* BalancedParanthesesUsingStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BalancedParanthesesUsingStack.c; sourceTree = "<group>"; };
 		C6FF67FC21D3659900517D51 /* StackUsingLL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StackUsingLL.c; sourceTree = "<group>"; };
 		C6FF67FD21D3659900517D51 /* StackUsingLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackUsingLL.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,10 @@
 				C67AE07621CD01B4000D9209 /* DoublyLinkedList.h */,
 				C6FF67FC21D3659900517D51 /* StackUsingLL.c */,
 				C6FF67FD21D3659900517D51 /* StackUsingLL.h */,
+				C6DC0B1F21E345CE00E4A950 /* BalancedParanthesesUsingStack.h */,
+				C6DC0B2021E345CE00E4A950 /* BalancedParanthesesUsingStack.c */,
+				C6A04B5621E761E2007210D9 /* InfixToPostfixExpressionCheck.h */,
+				C6A04B5721E761E2007210D9 /* InfixToPostfixExpressionCheck.c */,
 			);
 			path = DSPractice;
 			sourceTree = "<group>";
@@ -147,7 +157,9 @@
 				C6FF67FE21D3659900517D51 /* StackUsingLL.c in Sources */,
 				C67B4AD521C78F38008E0982 /* Queue.c in Sources */,
 				C67AE07721CD01B4000D9209 /* DoublyLinkedList.c in Sources */,
+				C6A04B5821E761E2007210D9 /* InfixToPostfixExpressionCheck.c in Sources */,
 				C67B4AD221C78EBB008E0982 /* Stack.c in Sources */,
+				C6DC0B2121E345CE00E4A950 /* BalancedParanthesesUsingStack.c in Sources */,
 				C67B4ACA21C768AA008E0982 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

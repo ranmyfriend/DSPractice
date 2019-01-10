@@ -11,9 +11,20 @@
 //#include "Queue.h"
 //#include "SinglyLinkedList.h"
 //#include "DoublyLinkedList.h"
-#include "StackUsingLL.h"
+//#include "StackUsingLL.h"
+#include "BalancedParanthesesUsingStack.h"
+#include "InfixToPostfixExpressionCheck.h"
 
 int main(int argc, const char * argv[]) {
+  
+  
+  //Infix to PostFix Expression
+  //Infix:a*b*c-d+e
+  //Postfix:ab*c*d-e+
+  char input[100] = "23*7*4-5+";
+  int result = outPut(input);
+  printf("Final Result: %d\n",result);
+ 
     
     //Stack
 //    push(10);
@@ -70,14 +81,21 @@ int main(int argc, const char * argv[]) {
   
   
   //Stack Using Linked List
-  pushElementAtBeginning(10);
-  pushElementAtBeginning(9);
-  pushElementAtBeginning(8);
-//  pushElementAtBeginning(7);
-  deleteElementAtEnd();
-  displayAll();
+//  pushElementAtBeginning(10);
+//  pushElementAtBeginning(9);
+//  pushElementAtBeginning(8);
+////  pushElementAtBeginning(7);
+//  deleteElementAtEnd();
+//  displayAll();
   
-    
-    
+  
+  //BalancedParanthese Using Stack
+  
+//  char exp[100] = "({}(({})))";
+//  if (areParenthesisBalanced(exp))
+//    printf("Balanced \n");
+//  else
+//    printf("Not Balanced \n");
+  
     return 0;
 }

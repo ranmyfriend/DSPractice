@@ -29,35 +29,35 @@
 
 #define MAX 2
 
-int array[MAX],top=-1;
-
-void push(int element) {
-    
-    if (top > MAX-1) {
-        printf("Stack Overflow\n");
-        return;
-    }
-    
-    top++;
-    array[top] = element;
-    printf("%d pushed into Stack\n",array[top]);
-    
-}
-
-void pop() {
-    if (top < 0) {
-        printf("Stack Under Flow");
-    }else {
-        int x = array[top--];
-        printf("%d popped from Stack\n",x);
-    }
-}
-
-void isEmpty() {
-    if (top < 0) {
-        printf("Stack is Empty");
-    }else {
-        printf("Stack is not Empty");
-    }
-    printf("\n");
-}
+//int array[MAX],top=-1;
+//
+//void push(int element) {
+//    
+//    if (top > MAX-1) {
+//        printf("Stack Overflow\n");
+//        return;
+//    }
+//    
+//    top++;
+//    array[top] = element;
+//    printf("%d pushed into Stack\n",array[top]);
+//    
+//}
+//
+//void pop() {
+//    if (top < 0) {
+//        printf("Stack Under Flow");
+//    }else {
+//        int x = array[top--];
+//        printf("%d popped from Stack\n",x);
+//    }
+//}
+//
+//void isEmpty() {
+//    if (top < 0) {
+//        printf("Stack is Empty");
+//    }else {
+//        printf("Stack is not Empty");
+//    }
+//    printf("\n");
+//}
